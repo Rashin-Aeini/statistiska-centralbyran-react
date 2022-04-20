@@ -13,7 +13,7 @@ const Year = () => {
 
     useEffect(() => {
         axios({
-            baseURL: SERVER_ADDRESS + '/api/Year',
+            baseURL: SERVER_ADDRESS + '/api/Value/Year',
             method: "GET"
         }).then((response) => {
             if (response.status === 200) {

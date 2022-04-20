@@ -14,7 +14,7 @@ const Gender = () => {
 
     useEffect(() => {
         axios({
-            baseURL: SERVER_ADDRESS + '/api/Gender',
+            baseURL: SERVER_ADDRESS + '/api/Value/Gender',
             method: "GET"
         }).then((response) => {
             if (response.status === 200) {
